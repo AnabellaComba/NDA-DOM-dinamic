@@ -18,9 +18,46 @@ engrajage hace falta ajustar.
 # TEST TEORIA
 
 1. ¿Qué es el DOM?
+
+DOM significa Document Object Model (Modelo de Objetos del Documento.)
+
+Es básicamente una representación estructurada del HTML de una página web, que el navegador crea para poder leer, modificar y manipular el contenido desde JavaScript.
+Con JavaScript, podés acceder y modificar esa estructura. 
+Por ejemplo:
+document.querySelector("h1").textContent = "¡Hola modificado!";
+Este código busca el <h1> y cambia su texto. Eso es modificar el DOM.
+
+
 2. ¿Qué hace el addEventListener?
+El método addEventListener en JavaScript se usa para decirle a un elemento del DOM:
+“Cuando pase tal cosa, ejecutá esta función”.
+Sirve para escuchar eventos como clics, teclas, movimientos del mouse, envío de formularios, etc.
+EJ: elemento.addEventListener("evento", función);
+
 3. ¿Qué son las arrow functions?
+Las arrow functions (funciones flecha) son una forma más corta y moderna de escribir funciones en JavaScript. Se introdujeron con ES6 (ECMAScript 2015).
+EJ:
+// Función tradicional
+function saludar(nombre) {
+  return "Hola " + nombre;
+}
+
+// Arrow function equivalente
+const saludar = (nombre) => {
+  return "Hola " + nombre;
+};
+
+Se puede utilizar para simplificar el código y hacer funciones más compactas, especialmente en callbacks o funciones anónimas.
+
+
 4. ¿Cómo se genera contenido dinámico?
+Usando el DOM (el modelo de objetos del documento), podés crear, insertar o modificar elementos HTML en tiempo real.
+
+Crear elementos	document.createElement()
+Modificar contenido	.textContent o .innerHTML
+Agregar al HTML	.appendChild() o .append()
+Responder a eventos	addEventListener()
+
 5. ¿Importa el orden en que estan cargados los archivos?
 6. ¿Cómo podemos asegurarnos de que nuestro JS se ejecute obligatoriamente luego de la carga del HTML?
 7. ¿Qué es la recursividad y cómo está usada en el ejercicio?

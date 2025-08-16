@@ -24,7 +24,7 @@ Es básicamente una representación estructurada del HTML de una página web, qu
 Con JavaScript, podés acceder y modificar esa estructura. 
 Por ejemplo:
 document.querySelector("h1").textContent = "¡Hola modificado!";
-Este código busca el <h1> y cambia su texto. Eso es modificar el DOM.
+Este código busca el "<h1>" y cambia su texto. Eso es modificar el DOM.
 2. ¿Qué hace el addEventListener?
 El método addEventListener en JavaScript se usa para decirle a un elemento del DOM:
 “Cuando pase tal cosa, ejecutá esta función”.

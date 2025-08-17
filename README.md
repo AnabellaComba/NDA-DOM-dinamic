@@ -4,8 +4,7 @@ JS nos permite modificar el DOM (1) y agregarle eventos (2) que son permanenteme
 Utilizando las funciones anonimas (3) podemos utilizar variables globales que nos permitan hacer uso durante todo el tiempo de ejecución
 de la información que viaja a medida que vamos construyendo la pagina en tiempo real (4).
 
-Es importante saber que en este caso no hay condiciones de carrera (5) pero podría haberlo habido y es bueno tener en cuenta que esos casos
-existen (6)
+Es importante saber que en este caso no hay condiciones de carrera (5) pero podría haberlo habido y es bueno tener en cuenta que esos casos existen (6)
 
 Consigna: En este ejercicio aparecerá un botón en la pantalla que al pulsarlo no hará nada.
 
@@ -88,7 +87,8 @@ Para scripts rápidos o de ejemplo: al final del <body>.
 
 
 7. ¿Qué es la recursividad y cómo está usada en el ejercicio?
-
+Es una técnica de programación donde una función se llama a sí misma hasta que se cumple una condición de parada(stop) (caso base).
+En el código, la función crearVariosBotones(cantidad) se llama a sí misma reduciendo la cantidad hasta llegar a 0. Esto permite generar muchos botones sin necesidad de un bucle explícito (for o while).
    
 9. Explica el codigo con tus palabras linea por linea 
 

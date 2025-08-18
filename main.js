@@ -2,7 +2,10 @@ const boton = document.getElementById('inicio');
 let counter = 0;
 
 boton.addEventListener('click', () => {
-    
+
+    agregarBoton(boton);
+    funcionUltraSecretaQueTePermiteNoTenerQuePulsar100VecesUnBotonSiHubierasLeido(boton);
+
 });
 
 /* NO SE PUEDE EDITAR NADA DE ESTO PARA ABAJO 🔽 */
